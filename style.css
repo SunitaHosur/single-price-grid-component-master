@@ -85,7 +85,7 @@ body{
 
 /*Bottom left*/ 
 .p-10{
-    padding: 32px;
+    padding: 40px;
     padding-top:0px;
     
 }
@@ -155,7 +155,7 @@ body{
 
 /*Bottom right*/
 .p-11 {
-    padding: 10px;
+    padding: 23px;
     padding-bottom: 0px;
     border-bottom-right-radius: 10px;
     padding-top: 0px;
@@ -205,7 +205,7 @@ li{
     .sm-flex-col{
         flex-direction: column;
     }
-    .sm-p-11{
+    .p-11{
         border-bottom-left-radius:10px;
         padding: 0px;
     }
