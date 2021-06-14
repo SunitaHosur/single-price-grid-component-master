@@ -1,3 +1,11 @@
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+     --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+    
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap");
 /*body*/   
 *{
@@ -6,7 +14,7 @@
     padding: 0;
 }  
 body{
-    background-color: hsl(204, 43%, 93%);
+    background-color: var(--Light-Gray);
     margin: 50px;
 }
 .flex{
@@ -46,7 +54,7 @@ body{
 }
   /*top h2*/
 .text-blue{
-    color:hsl(179, 62%, 43%) ;
+    color:var(--Cyan) ;
 }
 .py-40{
   padding-bottom: 27px;
@@ -59,14 +67,14 @@ body{
     font-weight: bold;
 }
 .text-yellow{
-    color: hsl(71, 73%, 54%);
+    color: var(--Bright-Yellow);
 }
 .py-30{
     padding-bottom: 18px;
 }
 /*Top para*/  
 .text-gray{
-    color: hsl(218, 22%, 67%); 
+    color: var(--Grayish-Blue); 
 }
 .leading-8{
     line-height: 30px;
@@ -82,7 +90,7 @@ body{
     
 }
 .bg-blue{
-    background-color:hsl(179, 62%, 43%) ;
+    background-color:var(--Cyan) ;
 }
 .text-white{
     color: #fff;
@@ -133,7 +141,7 @@ body{
     border-radius: 5px;
 }
 .bg-yellow{
-    background-color:hsl(71, 73%, 54%) ;
+    background-color:var(--Bright-Yellow) ;
 }
 .text-white{
     color: #fff;
